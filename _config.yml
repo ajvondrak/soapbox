@@ -6,7 +6,6 @@ baseurl: /soapbox
 paginate: 5
 permalink: pretty
 
-# About/contact
 author:
-  name: Mark Otto
-  email: markdotto@gmail.com
+  name: Alex Vondrak
+  uri: https://ajvondrak.github.io/soapbox
