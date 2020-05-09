@@ -175,16 +175,18 @@ Elements of the `Object` set include the elements of the `Rainbow` and `Color` s
 
 In mathematical notation:
 
+<div>
 $$
   \begin{aligned}
-    \texttt{Rainbow} &\subseteq \texttt{Object} \\\\
-    \texttt{Color} &\subseteq \texttt{Object} \\\\
-    \texttt{RGB} &\subseteq \texttt{Color} \\\\
-    \texttt{Cylindrical} &\subseteq \texttt{Color} \\\\
-    \texttt{HSL} &\subseteq \texttt{Cylindrical} \\\\
-    \texttt{HSV} &\subseteq \texttt{Cylindrical} \\\\
+    \texttt{Rainbow} &\subseteq \texttt{Object} \\
+    \texttt{Color} &\subseteq \texttt{Object} \\
+    \texttt{RGB} &\subseteq \texttt{Color} \\
+    \texttt{Cylindrical} &\subseteq \texttt{Color} \\
+    \texttt{HSL} &\subseteq \texttt{Cylindrical} \\
+    \texttt{HSV} &\subseteq \texttt{Cylindrical} \\
   \end{aligned}
 $$
+</div>
 
 Now consider an instance of the `HSL` class for the color [pink](https://colorpicker.me/#FFC0CB).
 
@@ -194,17 +196,19 @@ pink = HSL.new(350, 1.0, 0.88)
 
 We can say that `pink` is in the `HSL` set. By the definition of subsets, this also means the following.
 
+<div>
 $$
   \begin{aligned}
-    \texttt{pink} &\in \texttt{HSL} \\\\
-    \texttt{pink} &\in \texttt{Cylindrical} \\\\
-    \texttt{pink} &\in \texttt{Color} \\\\
-    \texttt{pink} &\in \texttt{Object} \\\\
-    \texttt{pink} &\notin \texttt{Rainbow} \\\\
-    \texttt{pink} &\notin \texttt{RGB} \\\\
-    \texttt{pink} &\notin \texttt{HSV} \\\\
+    \texttt{pink} &\in \texttt{HSL} \\
+    \texttt{pink} &\in \texttt{Cylindrical} \\
+    \texttt{pink} &\in \texttt{Color} \\
+    \texttt{pink} &\in \texttt{Object} \\
+    \texttt{pink} &\notin \texttt{Rainbow} \\
+    \texttt{pink} &\notin \texttt{RGB} \\
+    \texttt{pink} &\notin \texttt{HSV} \\
   \end{aligned}
 $$
+</div>
 
 Given these set memberships, and the fact that classes are sets of instances, this means `pink` is *an instance* of `HSL`, `Cylindrical`, and `Color` simultaneously.
 
