@@ -1,4 +1,7 @@
-# On RSpec, Minitest, and Doing Magic Right
+---
+layout: post
+title: On RSpec, Minitest, and Doing Magic Right
+---
 
 I started programming Ruby professionally in 2014, which meant I had to learn [RSpec](http://rspec.info/). To this day, it remains the de facto standard for writing tests. And to this day, I still don't really get it.
 

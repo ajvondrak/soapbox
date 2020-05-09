@@ -1,4 +1,7 @@
-# Classes and Inheritance: Unweaving the Rainbow
+---
+layout: post
+title: "Classes & Inheritance: Unweaving the Rainbow"
+---
 
 > Philosophy will clip an Angel's wings,
 > Conquer all mysteries by rule and line,
