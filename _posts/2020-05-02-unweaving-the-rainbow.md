@@ -3,9 +3,9 @@ layout: post
 title: "Classes & Inheritance: Unweaving the Rainbow"
 ---
 
-> Philosophy will clip an Angel's wings,
-> Conquer all mysteries by rule and line,
-> Empty the haunted air, and gnomed mine&ndash;
+> Philosophy will clip an Angel's wings,<br/>
+> Conquer all mysteries by rule and line,<br/>
+> Empty the haunted air, and gnomed mine&ndash;<br/>
 > Unweave a rainbow, as it erewhile made
 
 &mdash; [Lamia (John Keats)](https://en.wikipedia.org/wiki/Lamia_%28poem%29)
