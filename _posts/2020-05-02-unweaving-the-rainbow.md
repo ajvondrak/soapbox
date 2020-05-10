@@ -159,7 +159,7 @@ Really, I want to highlight the difference between the [imperative](https://en.w
 
 My answer may seem underwhelming: a class can be understood as a [set](https://en.wikipedia.org/wiki/Set_%28mathematics%29) of all its possible instances.
 
-![A Venn diagram of the RGB set with elements corresponding to the red, yellow, green, blue, indigo, and violet instances we created previously.](https://user-images.githubusercontent.com/600924/80325991-346fdf80-87ec-11ea-9897-9f366491aeda.png)
+![A Venn diagram of the RGB set with elements corresponding to the red, yellow, green, blue, indigo, and violet instances we created previously.](/public/images/rgb.png)
 
 For illustration, the `RGB` class contains not just the [ROYGBIV](https://en.wikipedia.org/wiki/ROYGBIV) instances we created before, but also every other valid instance. Using just the red/blue/green components, that's 256^3 = 16,777,216 possible combinations. Along with the alpha channel, which is a real number between 0 and 1, there is an [uncountably infinite](https://en.wikipedia.org/wiki/Uncountable_set) number of elements in this set (although computers can only represent a finite range of floating point numbers in practice).
 
@@ -171,7 +171,7 @@ One such truth: if classes are sets, then subclasses are [subsets](https://en.wi
 
 When an object-oriented language says "everything is an object", one thing they often mean is that every class inherits from some base `Object` superclass. Considering all the classes we've defined so far, we can draw the Venn diagram showing how these sets nest.
 
-![A Venn diagram showing the nesting of the classes we've defined in this post.](https://user-images.githubusercontent.com/600924/80559926-fad9d880-8993-11ea-83c3-047fb442d51a.png)
+![A Venn diagram showing the nesting of the classes we've defined in this post.](/public/images/subclasses.png)
 
 Elements of the `Object` set include the elements of the `Rainbow` and `Color` sets. Inside of `Color` are all its possible instances; some of those instances are also in the `RGB` and `Cylindrical` sets. Inside `Cylindrical` are `HSL` and `HSV`.
 
@@ -493,7 +493,7 @@ end
 
 The spelling might be different from subclassing, but this declares that `Rainbow` is a subset of the union of `Poetic` and `Scientific`.
 
-![A Venn diagram showing conceptual multiple inheritance, where the Rainbow set overlaps the union of the Poetic & Scientific sets.](https://user-images.githubusercontent.com/600924/80845191-66eb5500-8bbd-11ea-908c-dbc4dde1f835.png)
+![A Venn diagram showing conceptual multiple inheritance, where the Rainbow set overlaps the union of the Poetic & Scientific sets.](/public/images/multiple-inheritance.png)
 
 In mathematical notation, $\texttt{Rainbow} \subseteq \texttt{Poetic} \cup \texttt{Scientific}$. In Ruby, you can even compare the sets the same way as before.
 
