@@ -5,6 +5,7 @@ url: https://ajvondrak.github.io/
 baseurl: /soapbox
 paginate: 5
 permalink: pretty
+excerpt_separator: <!-- more -->
 
 author:
   name: Alex Vondrak

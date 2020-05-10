@@ -16,6 +16,8 @@ I notice it when phone screening. As an interviewer, I might ask something about
 
 These answers aren't wrong. But I die a little bit inside when it's all I hear. The academic part of me yearns for more depth. In my experience, most programmers can describe what inheritance *does*, but not what it really *is*.
 
+<!-- more -->
+
 Nineteenth-century poet John Keats purportedly [quipped](https://www.scientificamerican.com/article/unweaving-the-heart/) that scientist Issac Newton "destroyed the poetry of the rainbow by reducing it to a prism". And sure, learning how a magic trick works might rob you of a certain joy. But I think the broader programming community would do well not to treat language constructs as magic tricks&mdash;as some syntactic incantation you just learn by rote. Not only can there be a joy in knowing, there are practical benefits to digging deeper. You'll take the lessons learned with you on all your future programming endeavors.
 
 So instead of waiting to hear it from an interviewee like some secret academic handshake, I want to educate. Let's destroy a rainbow together.

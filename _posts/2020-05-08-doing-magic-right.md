@@ -5,6 +5,8 @@ title: On RSpec, Minitest, and Doing Magic Right
 
 I started programming Ruby professionally in 2014, which meant I had to learn [RSpec](http://rspec.info/). To this day, it remains the de facto standard for writing tests. And to this day, I still don't really get it.
 
+<!-- more -->
+
 Back then, I didn't get how to use it: contexts, hooks, expectations, mocks. It's a lot to learn, especially for inexperienced programmers. Still, I persisted. I fumbled my way through the syntax. Resources like the [RSpec Style Guide](https://rspec.rubystyle.guide/) taught me some conventions. I wrote test suites large enough to leverage features like [shared examples](https://relishapp.com/rspec/rspec-core/v/3-9/docs/example-groups/shared-examples) and [custom matchers](https://relishapp.com/rspec/rspec-expectations/docs/custom-matchers).
 
 Nowadays, I don't get why to use RSpec in the first place. Is it because the DSL reads vaguely like English? Is it because the output is human readable? Is it because, in the [words of one of its developers](https://stackoverflow.com/a/12480737), "it reifies so many testing concepts into first class objects"?

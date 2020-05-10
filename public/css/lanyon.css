@@ -326,6 +326,15 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
+/* Read more */
+.read-more {
+  color: #9a9a9a;
+}
+.read-more:hover,
+.read-more:focus {
+  color: inherit;
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;
