@@ -1,6 +1,9 @@
 title: vondrak's soapbox
-tagline:
-description:
+tagline: a tech blog
+description: >
+  <img src="https://avatars.githubusercontent.com/u/600924" width="128" height="128">
+  The technical writings of
+  <a href="https://github.com/ajvondrak">@ajvondrak</a>
 url: https://ajvondrak.github.io/
 baseurl: /soapbox
 paginate: 5
