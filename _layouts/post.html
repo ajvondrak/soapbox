@@ -5,6 +5,31 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
+  {% if page.series %}
+    {% assign series = site.data.series | where: 'id', page.series | first %}
+    <aside class="series">
+      This post is part of the series <em>{{ series.name }}</em>
+      <ul>
+        {% assign entries = site.posts | reverse | where: 'series', series.id %}
+        {% for entry in entries %}
+        <li>
+          {% assign prefix = series.name | append: ", " %}
+          {% assign title = entry.title | remove: prefix %}
+          {% if entry.url == page.url %}
+          <strong>{{ title }}</strong>
+          {% else %}
+          <a href="{{ site.baseurl }}{{ entry.url }}">{{ title }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+        {% unless series.final %}
+        <li>
+          more to come!
+        </li>
+        {% endunless %}
+      </ul>
+    </aside>
+  {% endif %}
   {{ content }}
 </div>
 

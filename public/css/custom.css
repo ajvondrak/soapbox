@@ -1,0 +1,10 @@
+.series {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+.series ul {
+  margin-bottom: 0;
+}
