@@ -4,12 +4,12 @@ description: >
   <img src="https://avatars.githubusercontent.com/u/600924" width="128" height="128">
   The technical writings of
   <a href="https://github.com/ajvondrak">@ajvondrak</a>
-url: https://ajvondrak.github.io
-baseurl: /soapbox
+url: https://vondrak.dev
+baseurl: /
 paginate: 5
 permalink: pretty
 excerpt_separator: <!-- more -->
 
 author:
   name: Alex Vondrak
-  uri: https://ajvondrak.github.io/soapbox
+  uri: https://vondrak.dev/
